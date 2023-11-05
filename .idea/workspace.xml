@@ -4,46 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdeb4a57-9750-4c78-9e96-407a67bdeb7e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/src/main/java/com/example/configservice/ConfigServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/src/test/java/com/example/configservice/ConfigServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-service/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-service/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-service/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-service/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-service/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-service/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-service/src/main/java/com/example/eurekaservice/EurekaServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-service/src/main/resources/bootstrap.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-service/src/test/java/com/example/eurekaservice/EurekaServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/example/gatewayservice/GatewayServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/bootstrap.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/src/test/java/com/example/gatewayservice/GatewayServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices-webapp.iml" afterDir="false" />
-    </list>
+    <list default="true" id="fdeb4a57-9750-4c78-9e96-407a67bdeb7e" name="Changes" comment="Git init" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,6 +57,10 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -107,11 +72,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699175015775</updated>
-      <workItem from="1699175017136" duration="575000" />
+      <workItem from="1699175017136" duration="923000" />
     </task>
+    <task id="LOCAL-00001" summary="Git init">
+      <created>1699175730543</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699175730543</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Git init" />
+    <option name="LAST_COMMIT_MESSAGE" value="Git init" />
   </component>
 </project>
