@@ -4,7 +4,65 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdeb4a57-9750-4c78-9e96-407a67bdeb7e" name="Changes" comment="Git init" />
+    <list default="true" id="fdeb4a57-9750-4c78-9e96-407a67bdeb7e" name="Changes" comment="Git init">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/installment-service.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/user-service.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-data/eureka-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-data/gateway-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/installment-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/installment-service/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/installment-service/compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/installment-service/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/installment-service/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/installment-service/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/installment-service/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/installment-service/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/installment-service/src/main/java/com/example/installmentservice/Controllers/InstallmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/installment-service/src/main/java/com/example/installmentservice/Entities/InstallmentEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/installment-service/src/main/java/com/example/installmentservice/InstallmentServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/installment-service/src/main/java/com/example/installmentservice/Models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/installment-service/src/main/java/com/example/installmentservice/Repositories/InstallmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/installment-service/src/main/java/com/example/installmentservice/Services/InstallmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/installment-service/src/main/java/com/example/installmentservice/config/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/installment-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/installment-service/src/test/java/com/example/userservice/InstallmentServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/score-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/score-service/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/score-service/compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/score-service/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/score-service/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/score-service/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/score-service/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/score-service/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/score-service/src/main/java/com/example/scoreservice/Controllers/ScoreController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/score-service/src/main/java/com/example/scoreservice/Models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/score-service/src/main/java/com/example/scoreservice/ScoreServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/score-service/src/main/java/com/example/scoreservice/Services/ScoreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/score-service/src/main/java/com/example/scoreservice/config/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/score-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/score-service/src/test/java/com/example/scoreservice/ScoreServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/userservice/Models/Installment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/userservice/Models/Score.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/userservice/UserServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/userservice/config/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/test/java/com/example/userservice/UserServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-webapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-webapp.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,24 +78,51 @@
     <projectState path="$PROJECT_DIR$/gateway-service">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/installment-service">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/score-service">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/user-service">
+      <ProjectState />
+    </projectState>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="config-service" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/config-service" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/user-service" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2XkZPi6jbhjvCH1iUCyZdht33po" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -47,23 +132,108 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "/Users/hans/Projects/Usach/Tingeso/Ejemplos/microservices-webapp/installment-service/src/main/java/com/example/installmentservice/Services",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "spring.configuration.checksum": "9952c6417e961282d4b158a315e3013e",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/installment-service/src/main/java/com/example/installmentservice/Services" />
+      <recent name="$PROJECT_DIR$/installment-service/src/main/java/com/example/installmentservice" />
+      <recent name="$PROJECT_DIR$/score-service/src/main/java/com/example/scoreservice" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.installmentservice.Models" />
+      <recent name="com.example.scoreservice.Controllers" />
+      <recent name="com.example.installmentservice.Controllers" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GatewayServiceApplication">
+    <configuration name="EurekaServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eureka-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eurekaservice.EurekaServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.eurekaservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gateway-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.gatewayservice.GatewayServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.gatewayservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InstallmentServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="installment-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.installmentservice.InstallmentServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScoreServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="score-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.scoreservice.ScoreServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="user-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.userservice.UserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.GatewayServiceApplication" />
+        <item itemvalue="Spring Boot.EurekaServiceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -72,7 +242,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699175015775</updated>
-      <workItem from="1699175017136" duration="923000" />
+      <workItem from="1699175017136" duration="11991000" />
+      <workItem from="1699487542436" duration="6451000" />
+      <workItem from="1699496773383" duration="3999000" />
+      <workItem from="1699577422202" duration="2185000" />
+      <workItem from="1699587924242" duration="8653000" />
+      <workItem from="1699659875150" duration="9912000" />
     </task>
     <task id="LOCAL-00001" summary="Git init">
       <created>1699175730543</created>

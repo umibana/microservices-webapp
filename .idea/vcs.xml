@@ -5,5 +5,7 @@
     <mapping directory="$PROJECT_DIR$/config-service" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/eureka-service" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/gateway-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/score-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/user-service" vcs="Git" />
   </component>
 </project>
