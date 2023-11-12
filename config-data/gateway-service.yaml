@@ -26,11 +26,23 @@ spring:
             allowed-headers: "*"
             allow-credentials: true
       routes:
-        - id: backend-otro-service
-          uri: lb://backend-otro-service
+        - id: user-service
+          uri: lb://user-service
           predicates:
-            - Path=/otro/**
-        - id: backend-B-service
-          uri: lb://backend-B-service
+            - Path=/user/**
+          filters:
+            - RewritePath=/user/(?<remaining>.*)", /$\{remaining}
+
+        - id: score-service
+          uri: lb://score-service
           predicates:
-            - Path=/B/**
+            - Path=/score/**
+          filters:
+            - RewritePath=/score/(?<remaining>.*)", /$\{remaining}
+
+        - id: installment-service
+          uri: lb://installment-service
+          predicates:
+            - Path=/installment/**
+          filters:
+            - RewritePath=/installment/(?<remaining>.*)", /$\{remaining}

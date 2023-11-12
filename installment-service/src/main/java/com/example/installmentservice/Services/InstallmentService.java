@@ -29,7 +29,7 @@ public class InstallmentService{
     }
 
 
-    public int getAmountPendingPayment(String userRut){
+    public Integer getAmountPendingPayment(String userRut){
         String url = "http://score-service/discount/{rut}";
         String urlUser = "http://user-service/user/discount/{rut}";
         List<InstallmentEntity> installments = installmentRepository.findUnpaidInstallmentsByUserRut(userRut);
@@ -37,7 +37,6 @@ public class InstallmentService{
         int discountScore = restTemplate.getForEntity(url, Integer.class, userRut).getBody();
         int userDiscount = restTemplate.getForEntity(urlUser, Integer.class, userRut).getBody();
 
-        // same for user.getDiscount()
         int totalAmount = 0;
         for (InstallmentEntity installment : installments) {
             totalAmount += installment.getAmount() *  ((100.0 - userDiscount - discountScore)/100);
@@ -45,13 +44,16 @@ public class InstallmentService{
         return totalAmount;
 
     }
-    public int getAmountPaid(String userRut){
+    public Integer getAmountPaid(String userRut){
         List<InstallmentEntity> installments = installmentRepository.findPaidInstallmentsByUserRut(userRut);
         int totalAmount = 0;
         for (InstallmentEntity installment : installments) {
             totalAmount += installment.getAmountPaid();
         }
         return totalAmount;
+    }
+    public Integer getAmountPaidTotal(String userRut){
+        return installmentRepository.findPaidInstallmentsByUserRut(userRut).size();
     }
 
     public LocalDate getLastPayment(String userRut){

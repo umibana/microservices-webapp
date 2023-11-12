@@ -4,64 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdeb4a57-9750-4c78-9e96-407a67bdeb7e" name="Changes" comment="Git init">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/installment-service.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/user-service.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-data/eureka-service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-data/gateway-service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/installment-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/installment-service/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/installment-service/compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/installment-service/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/installment-service/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/installment-service/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/installment-service/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/installment-service/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/installment-service/src/main/java/com/example/installmentservice/Controllers/InstallmentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/installment-service/src/main/java/com/example/installmentservice/Entities/InstallmentEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/installment-service/src/main/java/com/example/installmentservice/InstallmentServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/installment-service/src/main/java/com/example/installmentservice/Models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/installment-service/src/main/java/com/example/installmentservice/Repositories/InstallmentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/installment-service/src/main/java/com/example/installmentservice/Services/InstallmentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/installment-service/src/main/java/com/example/installmentservice/config/RestTemplateConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/installment-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/installment-service/src/test/java/com/example/userservice/InstallmentServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/score-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/score-service/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/score-service/compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/score-service/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/score-service/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/score-service/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/score-service/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/score-service/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/score-service/src/main/java/com/example/scoreservice/Controllers/ScoreController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/score-service/src/main/java/com/example/scoreservice/Models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/score-service/src/main/java/com/example/scoreservice/ScoreServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/score-service/src/main/java/com/example/scoreservice/Services/ScoreService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/score-service/src/main/java/com/example/scoreservice/config/RestTemplateConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/score-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/score-service/src/test/java/com/example/scoreservice/ScoreServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/userservice/Models/Installment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/userservice/Models/Score.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/userservice/UserServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/userservice/config/RestTemplateConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/test/java/com/example/userservice/UserServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="fdeb4a57-9750-4c78-9e96-407a67bdeb7e" name="Changes" comment="Added frontend">
+      <change afterPath="$PROJECT_DIR$/config-data/installment-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-data/score-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-data/user-service.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices-webapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-webapp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-data/gateway-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/gateway-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/installment-service/src/main/java/com/example/installmentservice/Controllers/InstallmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/installment-service/src/main/java/com/example/installmentservice/Controllers/InstallmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/installment-service/src/main/java/com/example/installmentservice/Services/InstallmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/installment-service/src/main/java/com/example/installmentservice/Services/InstallmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/installment-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/installment-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/score-service/src/main/java/com/example/scoreservice/Controllers/ScoreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/score-service/src/main/java/com/example/scoreservice/Controllers/ScoreController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/score-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/score-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/example/userservice/Services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/userservice/Services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +68,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/user-service" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JpbToolWindowState">
     <option name="isToolWindowVisible" value="false" />
@@ -140,9 +95,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "/Users/hans/Projects/Usach/Tingeso/Ejemplos/microservices-webapp/installment-service/src/main/java/com/example/installmentservice/Services",
+    "last_opened_file_path": "/Users/hans/Projects/Usach/Tingeso/Ejemplos/microservices-webapp/config-data",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -161,6 +116,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/config-data" />
       <recent name="$PROJECT_DIR$/installment-service/src/main/java/com/example/installmentservice/Services" />
       <recent name="$PROJECT_DIR$/installment-service/src/main/java/com/example/installmentservice" />
       <recent name="$PROJECT_DIR$/score-service/src/main/java/com/example/scoreservice" />
@@ -247,7 +203,7 @@
       <workItem from="1699496773383" duration="3999000" />
       <workItem from="1699577422202" duration="2185000" />
       <workItem from="1699587924242" duration="8653000" />
-      <workItem from="1699659875150" duration="9912000" />
+      <workItem from="1699659875150" duration="13363000" />
     </task>
     <task id="LOCAL-00001" summary="Git init">
       <created>1699175730543</created>
@@ -256,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699175730543</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added frontend">
+      <created>1699671422952</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699671422952</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,6 +238,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Git init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Git init" />
+    <MESSAGE value="Updated functions to their respective microservices" />
+    <MESSAGE value="Added frontend" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added frontend" />
   </component>
 </project>
