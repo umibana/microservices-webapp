@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdeb4a57-9750-4c78-9e96-407a67bdeb7e" name="Changes" comment="Added frontend">
-      <change afterPath="$PROJECT_DIR$/config-data/installment-service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-data/score-service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-data/user-service.yaml" afterDir="false" />
+    <list default="true" id="fdeb4a57-9750-4c78-9e96-407a67bdeb7e" name="Changes" comment="Finished code and updated config-data">
+      <change afterPath="$PROJECT_DIR$/user-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-data/gateway-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/gateway-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/installment-service/src/main/java/com/example/installmentservice/Controllers/InstallmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/installment-service/src/main/java/com/example/installmentservice/Controllers/InstallmentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/installment-service/src/main/java/com/example/installmentservice/Services/InstallmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/installment-service/src/main/java/com/example/installmentservice/Services/InstallmentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/installment-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/installment-service/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/score-service/src/main/java/com/example/scoreservice/Controllers/ScoreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/score-service/src/main/java/com/example/scoreservice/Controllers/ScoreController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/score-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/score-service/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/example/userservice/Services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/userservice/Services/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +56,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
@@ -135,7 +128,44 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GatewayServiceApplication">
+  <component name="RunManager" selected="Gradle.UserServiceApplicationTests">
+    <configuration name="UserServiceApplicationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/user-service" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.example.userservice.UserServiceApplicationTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="ConfigServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="config-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.configservice.ConfigServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.configservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="eureka-service.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eurekaservice.EurekaServiceApplication" />
@@ -185,8 +215,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.GatewayServiceApplication" />
+        <item itemvalue="Gradle.UserServiceApplicationTests" />
         <item itemvalue="Spring Boot.EurekaServiceApplication" />
+        <item itemvalue="Spring Boot.GatewayServiceApplication" />
+        <item itemvalue="Spring Boot.ConfigServiceApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +235,7 @@
       <workItem from="1699496773383" duration="3999000" />
       <workItem from="1699577422202" duration="2185000" />
       <workItem from="1699587924242" duration="8653000" />
-      <workItem from="1699659875150" duration="13363000" />
+      <workItem from="1699659875150" duration="15751000" />
     </task>
     <task id="LOCAL-00001" summary="Git init">
       <created>1699175730543</created>
@@ -219,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699671422952</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Finished code and updated config-data">
+      <created>1699764036794</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699764036794</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +279,7 @@
     <MESSAGE value="Git init" />
     <MESSAGE value="Updated functions to their respective microservices" />
     <MESSAGE value="Added frontend" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added frontend" />
+    <MESSAGE value="Finished code and updated config-data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished code and updated config-data" />
   </component>
 </project>
