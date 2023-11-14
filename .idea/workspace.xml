@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdeb4a57-9750-4c78-9e96-407a67bdeb7e" name="Changes" comment="Update source port">
+    <list default="true" id="fdeb4a57-9750-4c78-9e96-407a67bdeb7e" name="Changes" comment="update config">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Minikube/installment-service-deployment-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Minikube/installment-service-deployment-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Minikube/score-service-deployment-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Minikube/score-service-deployment-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-data/gateway-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/gateway-service.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/installment-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/installment-service/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -250,8 +253,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.EurekaServiceApplication" />
         <item itemvalue="Spring Boot.GatewayServiceApplication" />
+        <item itemvalue="Spring Boot.EurekaServiceApplication" />
         <item itemvalue="Spring Boot.ConfigServiceApplication" />
         <item itemvalue="Gradle.Tests in 'score-service'" />
         <item itemvalue="Gradle.UserServiceApplicationTests" />
@@ -273,7 +276,7 @@
       <workItem from="1699587924242" duration="8653000" />
       <workItem from="1699659875150" duration="19814000" />
       <workItem from="1699866790254" duration="6000" />
-      <workItem from="1699980094713" duration="9737000" />
+      <workItem from="1699980094713" duration="12487000" />
     </task>
     <task id="LOCAL-00001" summary="Git init">
       <created>1699175730543</created>
@@ -324,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700000934673</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update config">
+      <created>1700001351068</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1700001351068</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,6 +360,7 @@
     <MESSAGE value="Added Minikube deployment files" />
     <MESSAGE value="Fixed config-data ports" />
     <MESSAGE value="Update source port" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update source port" />
+    <MESSAGE value="update config" />
+    <option name="LAST_COMMIT_MESSAGE" value="update config" />
   </component>
 </project>

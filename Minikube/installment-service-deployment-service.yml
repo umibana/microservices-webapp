@@ -1,22 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: score-service-deployment
+  name: installment-service-deployment
   labels:
-    app: score-service-deployment
+    app: installment-service-deployment
 spec:
   selector:
     matchLabels:
-      app: score-service-deployment
+      app: installment-service-deployment
   replicas: 1
   template:
     metadata:
       labels:
-        app: score-service-deployment
+        app: installment-service-deployment
     spec:
       containers:
-        - name: score-service
-          image: umibana/score-service:latest
+        - name: installment-service
+          image: umibana/installment-service:latest
           ports:
             - containerPort: 8081
           env:
@@ -31,12 +31,12 @@ spec:
                 configMapKeyRef:
                   name: postgres-config-map
                   key: POSTGRES_DB_HOST
-            - name: POSTGRES_DB_USER
+            - name: POSTGRES_DB_INSTALLMENT
               valueFrom:
                 configMapKeyRef:
                   name: postgres-config-map
                   key: POSTGRES_DB_INSTALLMENT
-            - name: POSTGRES_INSTALLMENT
+            - name: POSTGRES_USER
               valueFrom:
                 secretKeyRef:
                   name: postgres-credentials
@@ -50,12 +50,12 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: score-service
+  name: installment-service
   labels:
-    app: score-service
+    app: installment-service
 spec:
   selector:
-    app: score-service-deployment
+    app: installment-service-deployment
   ports:
     - protocol: TCP
       port: 8084

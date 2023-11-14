@@ -7,8 +7,6 @@ eureka:
     register-with-eureka: true
     service-url:
       default-zone: http://eureka-service:8761/eureka
-  instance:
-    hostname: localhost
 
 spring:
   cloud:

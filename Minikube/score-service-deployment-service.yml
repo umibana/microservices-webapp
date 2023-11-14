@@ -31,12 +31,12 @@ spec:
                 configMapKeyRef:
                   name: postgres-config-map
                   key: POSTGRES_DB_HOST
-            - name: POSTGRES_DB_USER
+            - name: POSTGRES_DB_SCORE
               valueFrom:
                 configMapKeyRef:
                   name: postgres-config-map
                   key: POSTGRES_DB_SCORE
-            - name: POSTGRES_SCORE
+            - name: POSTGRES_USER
               valueFrom:
                 secretKeyRef:
                   name: postgres-credentials
