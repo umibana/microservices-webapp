@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdeb4a57-9750-4c78-9e96-407a67bdeb7e" name="Changes" comment="Finished code and updated config-data">
-      <change afterPath="$PROJECT_DIR$/user-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/bootstrap.yml" afterDir="false" />
+    <list default="true" id="fdeb4a57-9750-4c78-9e96-407a67bdeb7e" name="Changes" comment="Updated Config route">
+      <change afterPath="$PROJECT_DIR$/.idea/modules/score-service.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/installment-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-service/src/components/MenubarFront.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend-service/src/components/MenubarFront.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-service/src/components/SearchButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend-service/src/components/SearchButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/installment-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/installment-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/installment-service/src/main/java/com/example/installmentservice/InstallmentServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/installment-service/src/main/java/com/example/installmentservice/InstallmentServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/installment-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/installment-service/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,32 +84,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "/Users/hans/Projects/Usach/Tingeso/Ejemplos/microservices-webapp/config-data",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "spring.configuration.checksum": "9952c6417e961282d4b158a315e3013e",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/hans/Projects/Usach/Tingeso/Ejemplos/microservices-webapp/config-data&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;9952c6417e961282d4b158a315e3013e&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -127,8 +133,31 @@
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
+    <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager" selected="Gradle.UserServiceApplicationTests">
+  <component name="RunManager" selected="Spring Boot.ScoreServiceApplication">
+    <configuration name="Tests in 'score-service'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/score-service" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="UserServiceApplicationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -213,12 +242,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Gradle.Tests in 'score-service'" />
+      <item itemvalue="Gradle.UserServiceApplicationTests" />
+      <item itemvalue="Spring Boot.InstallmentServiceApplication" />
+      <item itemvalue="Spring Boot.ScoreServiceApplication" />
+      <item itemvalue="Spring Boot.UserServiceApplication" />
+      <item itemvalue="Spring Boot.ConfigServiceApplication" />
+      <item itemvalue="Spring Boot.EurekaServiceApplication" />
+      <item itemvalue="Spring Boot.GatewayServiceApplication" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.UserServiceApplicationTests" />
-        <item itemvalue="Spring Boot.EurekaServiceApplication" />
         <item itemvalue="Spring Boot.GatewayServiceApplication" />
+        <item itemvalue="Spring Boot.EurekaServiceApplication" />
         <item itemvalue="Spring Boot.ConfigServiceApplication" />
+        <item itemvalue="Gradle.Tests in 'score-service'" />
+        <item itemvalue="Gradle.UserServiceApplicationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +275,9 @@
       <workItem from="1699496773383" duration="3999000" />
       <workItem from="1699577422202" duration="2185000" />
       <workItem from="1699587924242" duration="8653000" />
-      <workItem from="1699659875150" duration="15751000" />
+      <workItem from="1699659875150" duration="19814000" />
+      <workItem from="1699866790254" duration="6000" />
+      <workItem from="1699980094713" duration="5000000" />
     </task>
     <task id="LOCAL-00001" summary="Git init">
       <created>1699175730543</created>
@@ -258,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699764036794</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updated Config route">
+      <created>1699848786396</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699848786396</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,6 +329,7 @@
     <MESSAGE value="Updated functions to their respective microservices" />
     <MESSAGE value="Added frontend" />
     <MESSAGE value="Finished code and updated config-data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished code and updated config-data" />
+    <MESSAGE value="Updated Config route" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Config route" />
   </component>
 </project>
