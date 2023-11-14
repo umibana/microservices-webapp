@@ -5,10 +5,10 @@ metadata:
   labels:
     app: postgres-config-map
 data:
-  POSTGRES_DB_HOST: postgres
+  POSTGRES_DB_HOST: "postgres"
   # Student database
-  POSTGRES_DB_USER: userdb
+  POSTGRES_DB_USER: "userdb"
   # Installment database
-  POSTGRES_DB_INSTALLMENT: installmentdb
+  POSTGRES_DB_INSTALLMENT: "installmentdb"
   # Score database
-  POSTGRES_DB_SCORE: scoredb
+  POSTGRES_DB_SCORE: "scoredb"
