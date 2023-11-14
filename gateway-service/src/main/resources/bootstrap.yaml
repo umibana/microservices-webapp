@@ -1,7 +1,37 @@
 spring:
   application:
-    name: backend-gateway-service
+    name: gateway-service
   cloud:
-    config:
-      enabled: true
-      uri: http://localhost:8081
+    gateway:
+      routes:
+        - id: user-service
+          uri: lb://user-service
+          predicates:
+            - Path=/user/**
+          filters:
+            - RewritePath=/user/(?<remaining>.*)", /$\{remaining}
+
+        - id: score-service
+          uri: lb://score-service
+          predicates:
+            - Path=/score/**
+          filters:
+            - RewritePath=/score/(?<remaining>.*)", /$\{remaining}
+
+        - id: installment-service
+          uri: lb://installment-service
+          predicates:
+            - Path=/installment/**
+          filters:
+            - RewritePath=/installment/(?<remaining>.*)", /$\{remaining}
+
+
+server:
+  port: 9000
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

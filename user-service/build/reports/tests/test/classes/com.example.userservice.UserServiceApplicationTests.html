@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - UserServiceApplicationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>UserServiceApplicationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.example.userservice.html">com.example.userservice</a> &gt; UserServiceApplicationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.326s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">contextLoads()</td>
+<td class="success">0.326s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>02:26:18.934 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.userservice.UserServiceApplicationTests]: UserServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+02:26:18.990 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.userservice.UserServiceApplication for test class com.example.userservice.UserServiceApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.5)
+
+2023-11-13T02:26:21.858-03:00  INFO 71826 --- [    Test worker] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8081
+2023-11-13T02:26:22.531-03:00  INFO 71826 --- [    Test worker] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=user-service, profiles=[default], label=main, version=726af344feb60cae1202267ae3d762f8f2148b4d, state=null
+2023-11-13T02:26:22.532-03:00  INFO 71826 --- [    Test worker] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/umibana/microservices-webapp/config-data/user-service.yaml'}]
+2023-11-13T02:26:22.542-03:00  INFO 71826 --- [    Test worker] c.e.u.UserServiceApplicationTests        : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2023-11-13T02:26:22.545-03:00  INFO 71826 --- [    Test worker] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8081
+2023-11-13T02:26:22.545-03:00  INFO 71826 --- [    Test worker] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=user-service, profiles=[default], label=main, version=726af344feb60cae1202267ae3d762f8f2148b4d, state=null
+2023-11-13T02:26:22.776-03:00  INFO 71826 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-13T02:26:22.852-03:00  INFO 71826 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 1 JPA repository interfaces.
+2023-11-13T02:26:22.968-03:00  INFO 71826 --- [    Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=902b6618-c557-3fa8-850b-78a417335862
+2023-11-13T02:26:23.091-03:00  INFO 71826 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-13T02:26:23.112-03:00  INFO 71826 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-11-13T02:26:23.113-03:00  INFO 71826 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-13T02:26:23.240-03:00  INFO 71826 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-13T02:26:23.251-03:00  INFO 71826 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-13T02:26:23.316-03:00  INFO 71826 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5ee581db
+2023-11-13T02:26:23.317-03:00  INFO 71826 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-13T02:26:23.335-03:00  WARN 71826 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-11-13T02:26:23.720-03:00  INFO 71826 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-13T02:26:23.764-03:00  INFO 71826 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-13T02:26:24.011-03:00  WARN 71826 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-13T02:26:24.235-03:00  INFO 71826 --- [    Test worker] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-11-13T02:26:24.266-03:00  WARN 71826 --- [    Test worker] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-11-13T02:26:24.275-03:00  INFO 71826 --- [    Test worker] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-11-13T02:26:24.315-03:00  INFO 71826 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-11-13T02:26:24.317-03:00  INFO 71826 --- [    Test worker] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-13T02:26:24.328-03:00  INFO 71826 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-11-13T02:26:24.328-03:00  INFO 71826 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-11-13T02:26:24.328-03:00  INFO 71826 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-11-13T02:26:24.328-03:00  INFO 71826 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-11-13T02:26:24.328-03:00  INFO 71826 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-11-13T02:26:24.328-03:00  INFO 71826 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-11-13T02:26:24.328-03:00  INFO 71826 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-11-13T02:26:24.570-03:00  INFO 71826 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-11-13T02:26:24.571-03:00  INFO 71826 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-11-13T02:26:24.573-03:00  INFO 71826 --- [    Test worker] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-11-13T02:26:24.575-03:00  INFO 71826 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1699853184575 with initial instances count: 0
+2023-11-13T02:26:24.577-03:00  INFO 71826 --- [    Test worker] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application USER-SERVICE with eureka with status UP
+2023-11-13T02:26:24.577-03:00  INFO 71826 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1699853184577, current=UP, previous=STARTING]
+2023-11-13T02:26:24.578-03:00  INFO 71826 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-SERVICE/user-service:59a8530e6f6f2c0f9b6773e61f201479: registering service...
+2023-11-13T02:26:24.589-03:00  INFO 71826 --- [    Test worker] c.e.u.UserServiceApplicationTests        : Started UserServiceApplicationTests in 5.52 seconds (process running for 6.095)
+2023-11-13T02:26:24.624-03:00  INFO 71826 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-SERVICE/user-service:59a8530e6f6f2c0f9b6773e61f201479 - registration status: 204
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.4</a> at Nov 13, 2023, 2:26:27 AM</p>
+</div>
+</div>
+</body>
+</html>

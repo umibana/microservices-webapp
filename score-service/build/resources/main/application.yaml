@@ -1,0 +1,28 @@
+spring:
+  devtools:
+    restart:
+      aditional-paths: src/main/java
+  application:
+    name: score-service
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  config:
+    import: "configserver:http://localhost:8081"
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8761
+  datasource:
+    platform: postgres
+    driver-class-name: org.postgresql.Driver
+    dbname: postgres
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: hans
+    password: 252002
+  servlet:
+    multipart:
+      max-file-size: 5MB
+      max-request-size: 10MB

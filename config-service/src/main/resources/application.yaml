@@ -2,11 +2,11 @@ server:
   port: 8081
 spring:
   application:
-    name: backend-config
+    name: config-service
   cloud:
     config:
       server:
         git:
           default-label: main
           uri: https://github.com/umibana/microservices-webapp
-          search-paths: "config-data"
+          search-paths: "/config-data"

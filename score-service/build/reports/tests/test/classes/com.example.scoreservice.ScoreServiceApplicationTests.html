@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - ScoreServiceApplicationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>ScoreServiceApplicationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.example.scoreservice.html">com.example.scoreservice</a> &gt; ScoreServiceApplicationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.316s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">contextLoads()</td>
+<td class="success">0.316s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>02:26:42.731 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.scoreservice.ScoreServiceApplicationTests]: ScoreServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+02:26:42.783 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.scoreservice.ScoreServiceApplication for test class com.example.scoreservice.ScoreServiceApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.5)
+
+2023-11-13T02:26:43.984-03:00  INFO 71903 --- [    Test worker] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
+2023-11-13T02:26:43.988-03:00  INFO 71903 --- [    Test worker] c.c.c.ConfigServicePropertySourceLocator : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for &quot;http://localhost:8888/score-service/default&quot;: Connection refused. Will be trying the next url if available
+2023-11-13T02:26:43.988-03:00  WARN 71903 --- [    Test worker] c.c.c.ConfigServicePropertySourceLocator : Could not locate PropertySource: I/O error on GET request for &quot;http://localhost:8888/score-service/default&quot;: Connection refused
+2023-11-13T02:26:43.995-03:00  INFO 71903 --- [    Test worker] c.e.s.ScoreServiceApplicationTests       : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2023-11-13T02:26:43.997-03:00  INFO 71903 --- [    Test worker] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8081
+2023-11-13T02:26:43.998-03:00  INFO 71903 --- [    Test worker] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=score-service, profiles=[default], label=null, version=726af344feb60cae1202267ae3d762f8f2148b4d, state=null
+2023-11-13T02:26:44.229-03:00  INFO 71903 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-13T02:26:44.295-03:00  INFO 71903 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interfaces.
+2023-11-13T02:26:44.408-03:00  INFO 71903 --- [    Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9a7ccba4-261a-34d2-863d-d4798230d0cb
+2023-11-13T02:26:44.522-03:00  INFO 71903 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-13T02:26:44.543-03:00  INFO 71903 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-11-13T02:26:44.544-03:00  INFO 71903 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-13T02:26:44.668-03:00  INFO 71903 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-13T02:26:44.680-03:00  INFO 71903 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-13T02:26:44.736-03:00  INFO 71903 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@295f2d1b
+2023-11-13T02:26:44.737-03:00  INFO 71903 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-13T02:26:44.760-03:00  WARN 71903 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-11-13T02:26:45.138-03:00  INFO 71903 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-13T02:26:45.161-03:00  INFO 71903 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-13T02:26:45.394-03:00  WARN 71903 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-13T02:26:45.629-03:00  INFO 71903 --- [    Test worker] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-11-13T02:26:45.659-03:00  WARN 71903 --- [    Test worker] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-11-13T02:26:45.669-03:00  INFO 71903 --- [    Test worker] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-11-13T02:26:45.711-03:00  INFO 71903 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-11-13T02:26:45.712-03:00  INFO 71903 --- [    Test worker] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-13T02:26:45.723-03:00  INFO 71903 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-11-13T02:26:45.724-03:00  INFO 71903 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-11-13T02:26:45.724-03:00  INFO 71903 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-11-13T02:26:45.724-03:00  INFO 71903 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-11-13T02:26:45.724-03:00  INFO 71903 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-11-13T02:26:45.724-03:00  INFO 71903 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-11-13T02:26:45.724-03:00  INFO 71903 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-11-13T02:26:45.887-03:00  INFO 71903 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-11-13T02:26:45.888-03:00  INFO 71903 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-11-13T02:26:45.889-03:00  INFO 71903 --- [    Test worker] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-11-13T02:26:45.891-03:00  INFO 71903 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1699853205891 with initial instances count: 0
+2023-11-13T02:26:45.893-03:00  INFO 71903 --- [    Test worker] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SCORE-SERVICE with eureka with status UP
+2023-11-13T02:26:45.893-03:00  INFO 71903 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1699853205893, current=UP, previous=STARTING]
+2023-11-13T02:26:45.894-03:00  INFO 71903 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SCORE-SERVICE/score-service:4294d16879e81f871194b4bc7df86f9a: registering service...
+2023-11-13T02:26:45.901-03:00  INFO 71903 --- [    Test worker] c.e.s.ScoreServiceApplicationTests       : Started ScoreServiceApplicationTests in 3.054 seconds (process running for 3.575)
+2023-11-13T02:26:45.920-03:00  INFO 71903 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SCORE-SERVICE/score-service:4294d16879e81f871194b4bc7df86f9a - registration status: 204
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.4</a> at Nov 13, 2023, 2:26:49 AM</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,7 +1,17 @@
 spring:
   application:
-    name: backend-eureka
-  cloud:
-    config:
-      enabled: true
-      uri: http://localhost:8081
+    name: eureka
+
+server:
+  port: 8761
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceURL:
+      defaultZone: http://localhost:8761/eureka/
+  server:
+    waitTimeInMsWhenSyncEmpty: 0
