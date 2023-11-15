@@ -1,6 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 import { Button } from "./ui/button";
+import { Input } from "./ui/input";
 
 function FileUpload() {
   const [selectedFile, setSelectedFile] = useState(null);
@@ -34,9 +35,12 @@ function FileUpload() {
 
   return (
     <div>
-      <input type="file" onChange={handleFileChange} />
-      <Button onClick={handleFileUpload}>Upload</Button>
-      {uploadStatus && <p>{uploadStatus}</p>}
+      <h1> Subir notas </h1>
+      <div className="flex gap-2">
+        <Input type="file" onChange={handleFileChange} />
+        <Button onClick={handleFileUpload}>Upload</Button>
+        {uploadStatus && <p>{uploadStatus}</p>}
+      </div>
     </div>
   );
 }

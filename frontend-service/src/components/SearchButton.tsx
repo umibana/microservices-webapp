@@ -63,17 +63,17 @@ export function SearchButton() {
   return (
     <div>
       <h1> Busqueda de usuario </h1>
-      <div className="flex my-4">
+      <div className="flex my-4 gap-4">
         <Input
           type="rut"
           placeholder="Ingrese Rut del usuario"
           onChange={handleInputChange}
         />
         <Button type="submit" onClick={() => handleSearch(inputValue)}>
-          Buscar
+          Buscar Cuotas
         </Button>
         <Button type="submit" onClick={() => handleSummary(inputValue)}>
-          Resumen de estudiante
+          Buscar Resumen
         </Button>
       </div>
 
