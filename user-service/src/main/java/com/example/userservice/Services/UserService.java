@@ -40,7 +40,7 @@ public class UserService {
 
     public void createUser(@ModelAttribute UserEntity user) {
         // Assuming there's an endpoint to get user discounts and available installments
-        String installmentsUrl = "http://payment-service/installments/";
+        String installmentsUrl = "http://installment-service/installment";
 
         Integer discount = getUserDiscounts(user);
         Integer availableInstallments = getAvailableInstallments(user);
@@ -119,13 +119,13 @@ public class UserService {
 
     public String getUserSummary(String rut) {
         String getInstallmentUrl = "http://installment-service/installment/{rut}";
-        String lastPaymentUrl = "http://installment-service/lastpaid/{rut}";
-        String amountPaidUrl = "http://installment-service/paid/{rut}";
-        String amountUnpaidUrl = "http://installment-service/unpaid/{rut}";
-        String amountPaidTotalUrl = "http://installment-service/paidtotal/{rut}";
-        String amountOverdueUrl = "http://installment-service/overdues/{rut}";
-        String examsTaken = "http://score-service/exams/{rut}";
-        String averageScore = "http://score-service/average/{rut}";
+        String lastPaymentUrl = "http://installment-service/installment/lastpaid/{rut}";
+        String amountPaidUrl = "http://installment-service/installment/paid/{rut}";
+        String amountUnpaidUrl = "http://installment-service/installment/unpaid/{rut}";
+        String amountPaidTotalUrl = "http://installment-service/installment/paidtotal/{rut}";
+        String amountOverdueUrl = "http://installment-service/installment/overdues/{rut}";
+        String examsTaken = "http://score-service/score/exams/{rut}";
+        String averageScore = "http://score-service/score/average/{rut}";
 
 
         UserEntity user = findByRut(rut);

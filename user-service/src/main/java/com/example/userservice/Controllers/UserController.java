@@ -51,9 +51,14 @@ public class UserController {
     }
 
     @PostMapping
-    public ResponseEntity<?> postUser(@ModelAttribute UserEntity user) {
+    public ResponseEntity<?> postUser(@RequestBody UserEntity user) {
         userService.createUser(user);
         return ResponseEntity.ok(user);
+    }
+
+    @GetMapping("/summary/{rut}")
+    public ResponseEntity<String> getSummary(@PathVariable("rut") String rut){
+        return ResponseEntity.ok(userService.getUserSummary(rut));
     }
 
 

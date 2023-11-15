@@ -11,6 +11,7 @@ import com.example.installmentservice.Repositories.InstallmentRepository;
 
 import java.time.LocalDate;
 import java.util.List;
+import java.util.Optional;
 
 
 @Service
@@ -30,7 +31,7 @@ public class InstallmentService{
 
 
     public Integer getAmountPendingPayment(String userRut){
-        String url = "http://score-service/discount/{rut}";
+        String url = "http://score-service/score/discount/{rut}";
         String urlUser = "http://user-service/user/discount/{rut}";
         List<InstallmentEntity> installments = installmentRepository.findUnpaidInstallmentsByUserRut(userRut);
         // We need to make a GET request here
@@ -61,6 +62,17 @@ public class InstallmentService{
     }
     public Integer getOverdues(String userRut){
         return installmentRepository.findOverdueInstallmentsByUserRut(userRut).size();
+    }
+
+    public boolean toggleIsPaidStatus(Integer id) {
+        Optional<InstallmentEntity> optionalInstallment = installmentRepository.findById(id);
+        if (optionalInstallment.isPresent()) {
+            InstallmentEntity installment = optionalInstallment.get();
+            installment.setPaid(!installment.isPaid());
+            installmentRepository.save(installment);
+            return true;
+        }
+        return false;
     }
 
 }

@@ -31,6 +31,16 @@ public class InstallmentController {
         return ResponseEntity.ok(installments);
 
     }
+    @PostMapping("/updatePaid/{id}")
+    public ResponseEntity<Void> updatePaid(@PathVariable Integer id) {
+        boolean updated = installmentService.toggleIsPaidStatus(id);
+        if (updated) {
+            return ResponseEntity.ok().build();
+        } else {
+            return ResponseEntity.notFound().build();
+        }
+
+    }
     @PostMapping
     public ResponseEntity<InstallmentEntity> createUser(@RequestBody InstallmentEntity installment) {
         InstallmentEntity newInstallment = installmentService.createInstallment(installment);
